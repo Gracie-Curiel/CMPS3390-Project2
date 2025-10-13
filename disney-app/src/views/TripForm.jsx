@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-const TripDetails = () => (
+const TripForm = () => (
   <div data-theme="light" class="min-h-screen bg-white text-gray-900 p-8">
-    <div class="flex justify-center">
+    <div class="flex justify-center mt-50">
       <fieldset class="fieldset bg-white border-gray-300 rounded-box w-full max-w-md border p-6 shadow-md">
         <legend class="fieldset-legend text-lg font-medium mb-4">Enter Trip Details</legend>
 
@@ -23,4 +23,4 @@ const TripDetails = () => (
   </div>
 );
 
-export default TripDetails;
+export default TripForm;
