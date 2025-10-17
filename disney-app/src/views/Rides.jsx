@@ -165,13 +165,6 @@ function addRide(rideId) {
 }
 
 
-window.onload = function () {
-  setTimeout(() => {
-    removeRide('bcfd1e17-3eab-4203-b597-6257a257d427');
-  }, 1000); // waits 2000 milliseconds = 2 seconds
-};
-
-
 
 //same function as above but pops instead of pushes
 function removeRide(rideId) {
