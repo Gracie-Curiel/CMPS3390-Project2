@@ -1,0 +1,2644 @@
+{
+  "id": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+  "name": "Disney California Adventure Park",
+  "entityType": "PARK",
+  "timezone": "America/Los_Angeles",
+  "liveData": [
+    {
+      "id": "531f6200-393e-4e4d-b95e-aedd30102e49",
+      "name": "Ancient Sanctum",
+      "entityType": "SHOW",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "19534194;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Operating",
+          "endTime": "2022-07-13T14:30:00-07:00",
+          "startTime": "2022-07-13T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2022-07-13et disPark;T07:08:17Z"
+    },
+    {
+      "id": "d2aa0987-49a2-45dc-a635-3a8bf7401230",
+      "name": "Animation Academy",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "353289;entityType=Attraction",
+      "status": "OPERATING",
+      "operatingHours": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T09:00:00-07:00",
+          "startTime": "2025-10-15T09:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T09:30:00-07:00",
+          "startTime": "2025-10-15T09:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T10:00:00-07:00",
+          "startTime": "2025-10-15T10:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T10:30:00-07:00",
+          "startTime": "2025-10-15T10:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T11:00:00-07:00",
+          "startTime": "2025-10-15T11:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T11:30:00-07:00",
+          "startTime": "2025-10-15T11:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T12:00:00-07:00",
+          "startTime": "2025-10-15T12:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T12:30:00-07:00",
+          "startTime": "2025-10-15T12:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T13:00:00-07:00",
+          "startTime": "2025-10-15T13:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T13:30:00-07:00",
+          "startTime": "2025-10-15T13:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T14:00:00-07:00",
+          "startTime": "2025-10-15T14:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T14:30:00-07:00",
+          "startTime": "2025-10-15T14:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T15:00:00-07:00",
+          "startTime": "2025-10-15T15:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T15:30:00-07:00",
+          "startTime": "2025-10-15T15:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T16:00:00-07:00",
+          "startTime": "2025-10-15T16:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T16:30:00-07:00",
+          "startTime": "2025-10-15T16:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T17:00:00-07:00",
+          "startTime": "2025-10-15T17:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T17:30:00-07:00",
+          "startTime": "2025-10-15T17:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T18:00:00-07:00",
+          "startTime": "2025-10-15T18:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T18:30:00-07:00",
+          "startTime": "2025-10-15T18:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T19:00:00-07:00",
+          "startTime": "2025-10-15T19:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T19:30:00-07:00",
+          "startTime": "2025-10-15T19:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T20:00:00-07:00",
+          "startTime": "2025-10-15T20:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T20:30:00-07:00",
+          "startTime": "2025-10-15T20:30:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T07:15:57Z"
+    },
+    {
+      "id": "13bc1b70-3a42-41eb-9cb5-7fa8615af2ca",
+      "name": "Sonoma Terrace",
+      "entityType": "RESTAURANT",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "368880;entityType=restaurant",
+      "status": "OPERATING",
+      "lastUpdated": "2024-09-16T08:11:42Z"
+    },
+    {
+      "id": "bdb0a3ec-eb7a-41c9-918f-ccee7194743e",
+      "name": "The Amazing Spider-Man!",
+      "entityType": "SHOW",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "19630108;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T09:50:00-07:00",
+          "startTime": "2025-10-15T09:50:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T10:20:00-07:00",
+          "startTime": "2025-10-15T10:20:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T10:50:00-07:00",
+          "startTime": "2025-10-15T10:50:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T11:20:00-07:00",
+          "startTime": "2025-10-15T11:20:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T11:50:00-07:00",
+          "startTime": "2025-10-15T11:50:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T12:20:00-07:00",
+          "startTime": "2025-10-15T12:20:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T13:50:00-07:00",
+          "startTime": "2025-10-15T13:50:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T14:20:00-07:00",
+          "startTime": "2025-10-15T14:20:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T14:50:00-07:00",
+          "startTime": "2025-10-15T14:50:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T15:20:00-07:00",
+          "startTime": "2025-10-15T15:20:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T15:50:00-07:00",
+          "startTime": "2025-10-15T15:50:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T16:20:00-07:00",
+          "startTime": "2025-10-15T16:20:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T07:25:58Z"
+    },
+    {
+      "id": "f71bfc6e-2f10-40a1-bf29-a4b98c5350f4",
+      "name": "Meet the Residents of Radiator Springs in Cars Land",
+      "entityType": "SHOW",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "16578447;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T07:25:57Z"
+    },
+    {
+      "id": "8d4b6d5f-558f-4210-82b5-02b0570232ea",
+      "name": "Citizens of Buena Vista Street",
+      "entityType": "SHOW",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "16428783;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T17:15:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T07:25:57Z"
+    },
+    {
+      "id": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "name": "Disney California Adventure Park",
+      "entityType": "PARK",
+      "parkId": null,
+      "externalId": "336894;entityType=theme-park",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "lastUpdated": "2024-04-05T15:54:30Z"
+    },
+    {
+      "id": "24066306-d364-4048-b4c9-a0e81980c5b4",
+      "name": "Villains Grove at Oogie Boogie Bash",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "19354459;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "CLOSED",
+      "operatingHours": [],
+      "lastUpdated": "2025-10-15T07:20:55Z"
+    },
+    {
+      "id": "a098bd7c-f1a9-4ffb-97db-e85925509f19",
+      "name": "Magic Key Terrace - Magic Key Holder Dining",
+      "entityType": "RESTAURANT",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "15527906;entityType=restaurant",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "lastUpdated": "2025-10-14T23:01:46Z"
+    },
+    {
+      "id": "3ee735b5-68dc-470a-a4a2-6ddd415b9cbd",
+      "name": "Avengers Headquarters",
+      "entityType": "SHOW",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "19534191;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T07:25:58Z"
+    },
+    {
+      "id": "10a5fc6f-5ad3-414b-9bdd-e6bae097b6ad",
+      "name": "Golden Zephyr",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "353341;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 15
+        }
+      },
+      "status": "OPERATING",
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T17:08:25Z"
+    },
+    {
+      "id": "457e2029-852f-4de7-9ca0-e4cc6f0cfcad",
+      "name": "World of Color Happiness!",
+      "entityType": "SHOW",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "412278312;entityType=Entertainment",
+      "queue": {
+        "BOARDING_GROUP": {
+          "estimatedWait": null,
+          "currentGroupEnd": null,
+          "allocationStatus": "AVAILABLE",
+          "currentGroupStart": null,
+          "nextAllocationTime": null
+        }
+      },
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T21:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T07:25:58Z"
+    },
+    {
+      "id": "388ad3f1-5cf5-4a9d-8d0e-6dfb817d7822",
+      "name": "Jessie's Critter Carousel",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "353367;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 5
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-10-15T08:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T09:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T10:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T11:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T12:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T13:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T14:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T15:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T16:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T17:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T18:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T19:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T20:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T15:02:29Z"
+    },
+    {
+      "id": "2459a357-2b20-4445-8476-6a9a7e5eab54",
+      "name": "Lamplight Lounge - Boardwalk Dining",
+      "entityType": "RESTAURANT",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "19629820;entityType=restaurant",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "lastUpdated": "2025-10-14T23:27:51Z"
+    },
+    {
+      "id": "1b6a816a-337c-431c-8df6-72f993e15e64",
+      "name": "Warriors of Wakanda: The Disciplines of the Dora Milaje",
+      "entityType": "SHOW",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "19630110;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T10:30:00-07:00",
+          "startTime": "2025-10-15T10:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T11:30:00-07:00",
+          "startTime": "2025-10-15T11:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T12:30:00-07:00",
+          "startTime": "2025-10-15T12:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T14:00:00-07:00",
+          "startTime": "2025-10-15T14:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T15:00:00-07:00",
+          "startTime": "2025-10-15T15:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T16:00:00-07:00",
+          "startTime": "2025-10-15T16:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T07:25:58Z"
+    },
+    {
+      "id": "8c765162-384b-4db7-8ca0-f1165b7ad62b",
+      "name": "Frightfully Fun Parade at Oogie Boogie Bash",
+      "entityType": "SHOW",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "19354446;entityType=Entertainment",
+      "status": "CLOSED",
+      "showtimes": [],
+      "lastUpdated": "2025-10-15T07:25:58Z"
+    },
+    {
+      "id": "c60c768b-3461-465c-8f4f-b44b087506fc",
+      "name": "Radiator Springs Racers",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "16514416;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 90
+        },
+        "SINGLE_RIDER": {
+          "waitTime": null
+        },
+        "PAID_RETURN_TIME": {
+          "price": {
+            "amount": 2300,
+            "currency": "USD",
+            "formatted": "$23.00"
+          },
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-10-15T12:15:00-07:00"
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-10-15T08:00:00-07:00",
+          "waitTime": 115,
+          "percentage": 100
+        },
+        {
+          "time": "2025-10-15T09:00:00-07:00",
+          "waitTime": 95,
+          "percentage": 82
+        },
+        {
+          "time": "2025-10-15T10:00:00-07:00",
+          "waitTime": 110,
+          "percentage": 95
+        },
+        {
+          "time": "2025-10-15T11:00:00-07:00",
+          "waitTime": 90,
+          "percentage": 78
+        },
+        {
+          "time": "2025-10-15T12:00:00-07:00",
+          "waitTime": 85,
+          "percentage": 73
+        },
+        {
+          "time": "2025-10-15T13:00:00-07:00",
+          "waitTime": 80,
+          "percentage": 69
+        },
+        {
+          "time": "2025-10-15T14:00:00-07:00",
+          "waitTime": 80,
+          "percentage": 69
+        },
+        {
+          "time": "2025-10-15T15:00:00-07:00",
+          "waitTime": 75,
+          "percentage": 65
+        },
+        {
+          "time": "2025-10-15T16:00:00-07:00",
+          "waitTime": 105,
+          "percentage": 91
+        },
+        {
+          "time": "2025-10-15T17:00:00-07:00",
+          "waitTime": 75,
+          "percentage": 65
+        },
+        {
+          "time": "2025-10-15T18:00:00-07:00",
+          "waitTime": 90,
+          "percentage": 78
+        },
+        {
+          "time": "2025-10-15T19:00:00-07:00",
+          "waitTime": 75,
+          "percentage": 65
+        },
+        {
+          "time": "2025-10-15T20:00:00-07:00",
+          "waitTime": 80,
+          "percentage": 69
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T17:10:56Z"
+    },
+    {
+      "id": "753b558a-ff18-4ed9-a3c2-70e76b421618",
+      "name": "Carthay Circle Restaurant",
+      "entityType": "RESTAURANT",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "16515009;entityType=restaurant",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "lastUpdated": "2025-10-14T23:37:27Z"
+    },
+    {
+      "id": "1214912c-de6d-4493-9344-c245357f7af6",
+      "name": "Lamplight Lounge",
+      "entityType": "RESTAURANT",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "19013078;entityType=restaurant",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "lastUpdated": "2025-10-14T22:57:23Z"
+    },
+    {
+      "id": "2108cc58-80df-4fff-9b91-735e89873ffd",
+      "name": "Guardians of the Galaxy - Monsters After Dark",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "18774860;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        },
+        "RETURN_TIME": {
+          "state": "FINISHED",
+          "returnEnd": null,
+          "returnStart": null
+        }
+      },
+      "status": "CLOSED",
+      "forecast": [
+        {
+          "time": "2025-10-15T08:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T09:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T10:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T11:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T12:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T13:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T14:00:00-07:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-10-15T15:00:00-07:00",
+          "waitTime": 50,
+          "percentage": 41
+        },
+        {
+          "time": "2025-10-15T16:00:00-07:00",
+          "waitTime": 60,
+          "percentage": 50
+        },
+        {
+          "time": "2025-10-15T17:00:00-07:00",
+          "waitTime": 60,
+          "percentage": 50
+        },
+        {
+          "time": "2025-10-15T18:00:00-07:00",
+          "waitTime": 50,
+          "percentage": 41
+        },
+        {
+          "time": "2025-10-15T19:00:00-07:00",
+          "waitTime": 60,
+          "percentage": 50
+        },
+        {
+          "time": "2025-10-15T20:00:00-07:00",
+          "waitTime": 60,
+          "percentage": 50
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T14:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T11:00:57Z"
+    },
+    {
+      "id": "c8a4b7b1-c1b2-4dfe-b73c-4e834b4a73db",
+      "name": "Jumpin' Jellyfish",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "353361;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 10
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-10-15T08:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T09:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T10:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T11:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T12:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T13:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T14:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T15:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T16:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T17:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T18:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T19:00:00-07:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-10-15T20:00:00-07:00",
+          "waitTime": 15,
+          "percentage": 12
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T17:08:25Z"
+    },
+    {
+      "id": "449e351b-a05a-4a52-8893-0ed5c1f6fc48",
+      "name": "Five & Dime",
+      "entityType": "SHOW",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "16633170;entityType=Entertainment",
+      "status": "CLOSED",
+      "showtimes": [],
+      "lastUpdated": "2025-10-15T07:25:57Z"
+    },
+    {
+      "id": "048f854a-97d8-4295-8b7f-2575605259c6",
+      "name": "Wine Country Trattoria",
+      "entityType": "RESTAURANT",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "354555;entityType=restaurant",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "lastUpdated": "2025-10-14T23:00:25Z"
+    },
+    {
+      "id": "eb77ee1f-3207-44fd-acfc-d7bc18602007",
+      "name": "The Bakery Tour",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "353447;entityType=Attraction",
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-10-15T08:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T09:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T10:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T11:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T12:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T13:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T14:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T15:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T16:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T17:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T18:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T19:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T20:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T18:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T11:00:57Z"
+    },
+    {
+      "id": "7561bcd8-18ea-4e3f-89d5-c905b7ba3d42",
+      "name": "Turtle Talk with Crush",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "353457;entityType=Attraction",
+      "status": "OPERATING",
+      "operatingHours": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T09:00:00-07:00",
+          "startTime": "2025-10-15T09:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T09:30:00-07:00",
+          "startTime": "2025-10-15T09:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T10:00:00-07:00",
+          "startTime": "2025-10-15T10:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T10:30:00-07:00",
+          "startTime": "2025-10-15T10:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T11:00:00-07:00",
+          "startTime": "2025-10-15T11:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T11:30:00-07:00",
+          "startTime": "2025-10-15T11:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T12:00:00-07:00",
+          "startTime": "2025-10-15T12:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T12:30:00-07:00",
+          "startTime": "2025-10-15T12:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T13:00:00-07:00",
+          "startTime": "2025-10-15T13:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T13:30:00-07:00",
+          "startTime": "2025-10-15T13:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T14:00:00-07:00",
+          "startTime": "2025-10-15T14:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T14:30:00-07:00",
+          "startTime": "2025-10-15T14:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T15:00:00-07:00",
+          "startTime": "2025-10-15T15:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T15:30:00-07:00",
+          "startTime": "2025-10-15T15:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T16:00:00-07:00",
+          "startTime": "2025-10-15T16:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T16:30:00-07:00",
+          "startTime": "2025-10-15T16:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T17:00:00-07:00",
+          "startTime": "2025-10-15T17:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T17:30:00-07:00",
+          "startTime": "2025-10-15T17:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T18:00:00-07:00",
+          "startTime": "2025-10-15T18:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T18:30:00-07:00",
+          "startTime": "2025-10-15T18:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T19:00:00-07:00",
+          "startTime": "2025-10-15T19:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T19:30:00-07:00",
+          "startTime": "2025-10-15T19:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T20:00:00-07:00",
+          "startTime": "2025-10-15T20:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T20:30:00-07:00",
+          "startTime": "2025-10-15T20:30:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T07:15:58Z"
+    },
+    {
+      "id": "dca741a6-3472-4d4f-a9aa-7774aae81754",
+      "name": "Paradise Garden Bandstand",
+      "entityType": "SHOW",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "16642243;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T11:30:00-07:00",
+          "startTime": "2025-10-15T11:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T12:30:00-07:00",
+          "startTime": "2025-10-15T12:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T13:30:00-07:00",
+          "startTime": "2025-10-15T13:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T15:00:00-07:00",
+          "startTime": "2025-10-15T15:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T16:00:00-07:00",
+          "startTime": "2025-10-15T16:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T17:00:00-07:00",
+          "startTime": "2025-10-15T17:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T07:25:57Z"
+    },
+    {
+      "id": "6d876f4c-c3ff-4ae3-a2d8-d4b831e1039b",
+      "name": "Inside Out Emotional Whirlwind",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "19285637;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 20
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-10-15T08:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T09:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T10:00:00-07:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-10-15T11:00:00-07:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-10-15T12:00:00-07:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-10-15T13:00:00-07:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-10-15T14:00:00-07:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-10-15T15:00:00-07:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-10-15T16:00:00-07:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-10-15T17:00:00-07:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-10-15T18:00:00-07:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-10-15T19:00:00-07:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-10-15T20:00:00-07:00",
+          "waitTime": 20,
+          "percentage": 16
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T16:50:25Z"
+    },
+    {
+      "id": "4ca6cdbf-4c5f-45bf-b0dc-db83393ec208",
+      "name": "Pixar Pal-A-Round – Non-Swinging",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "19009994;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 20
+        }
+      },
+      "status": "OPERATING",
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T19:30:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T17:02:32Z"
+    },
+    {
+      "id": "f44a5072-3cda-4c7c-8574-33ad09d16cca",
+      "name": "Goofy's Sky School",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "15822029;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-10-15T11:05:00-07:00"
+        }
+      },
+      "status": "DOWN",
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T17:10:56Z"
+    },
+    {
+      "id": "4c570f5a-c5da-4388-9804-dd56123d18ce",
+      "name": "Meet Disney Pals on Buena Vista Street",
+      "entityType": "SHOW",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "401471;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T09:00:00-07:00",
+          "startTime": "2025-10-15T09:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T10:00:00-07:00",
+          "startTime": "2025-10-15T10:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T11:30:00-07:00",
+          "startTime": "2025-10-15T11:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T12:30:00-07:00",
+          "startTime": "2025-10-15T12:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T13:30:00-07:00",
+          "startTime": "2025-10-15T13:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T14:30:00-07:00",
+          "startTime": "2025-10-15T14:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T15:15:00-07:00",
+          "startTime": "2025-10-15T15:15:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T16:15:00-07:00",
+          "startTime": "2025-10-15T16:15:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T17:15:00-07:00",
+          "startTime": "2025-10-15T17:15:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T18:45:00-07:00",
+          "startTime": "2025-10-15T18:45:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T19:45:00-07:00",
+          "startTime": "2025-10-15T19:45:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T20:40:00-07:00",
+          "startTime": "2025-10-15T20:40:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T07:25:58Z"
+    },
+    {
+      "id": "40524fba-5d84-49e7-9204-f493dbe2d5a4",
+      "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "353387;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 45
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-10-15T11:30:00-07:00"
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-10-15T08:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T09:00:00-07:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-10-15T10:00:00-07:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-10-15T11:00:00-07:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-10-15T12:00:00-07:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-10-15T13:00:00-07:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-10-15T14:00:00-07:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-10-15T15:00:00-07:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-10-15T16:00:00-07:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-10-15T17:00:00-07:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-10-15T18:00:00-07:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-10-15T19:00:00-07:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-10-15T20:00:00-07:00",
+          "waitTime": 25,
+          "percentage": 20
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-10-15T08:00:00-07:00",
+          "startTime": "2025-10-15T07:30:00-07:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T17:10:56Z"
+    },
+    {
+      "id": "b1d285a7-2444-4a7c-b7bb-d2d4d6428a85",
+      "name": "Grizzly River Run",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "353345;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 5
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-10-15T10:10:00-07:00"
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-10-15T08:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T09:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T10:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T11:00:00-07:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-10-15T12:00:00-07:00",
+          "waitTime": 50,
+          "percentage": 41
+        },
+        {
+          "time": "2025-10-15T13:00:00-07:00",
+          "waitTime": 50,
+          "percentage": 41
+        },
+        {
+          "time": "2025-10-15T14:00:00-07:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-10-15T15:00:00-07:00",
+          "waitTime": 50,
+          "percentage": 41
+        },
+        {
+          "time": "2025-10-15T16:00:00-07:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-10-15T17:00:00-07:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-10-15T18:00:00-07:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-10-15T19:00:00-07:00",
+          "waitTime": 25,
+          "percentage": 20
+        },
+        {
+          "time": "2025-10-15T20:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T17:10:56Z"
+    },
+    {
+      "id": "77f205a4-d482-4d91-a5ff-71e54a086ad2",
+      "name": "Soarin' Around the World",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "353431;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 40
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-10-15T12:40:00-07:00"
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-10-15T08:00:00-07:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-10-15T09:00:00-07:00",
+          "waitTime": 50,
+          "percentage": 41
+        },
+        {
+          "time": "2025-10-15T10:00:00-07:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-10-15T11:00:00-07:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-10-15T12:00:00-07:00",
+          "waitTime": 60,
+          "percentage": 50
+        },
+        {
+          "time": "2025-10-15T13:00:00-07:00",
+          "waitTime": 70,
+          "percentage": 58
+        },
+        {
+          "time": "2025-10-15T14:00:00-07:00",
+          "waitTime": 70,
+          "percentage": 58
+        },
+        {
+          "time": "2025-10-15T15:00:00-07:00",
+          "waitTime": 80,
+          "percentage": 66
+        },
+        {
+          "time": "2025-10-15T16:00:00-07:00",
+          "waitTime": 75,
+          "percentage": 62
+        },
+        {
+          "time": "2025-10-15T17:00:00-07:00",
+          "waitTime": 80,
+          "percentage": 66
+        },
+        {
+          "time": "2025-10-15T18:00:00-07:00",
+          "waitTime": 80,
+          "percentage": 66
+        },
+        {
+          "time": "2025-10-15T19:00:00-07:00",
+          "waitTime": 80,
+          "percentage": 66
+        },
+        {
+          "time": "2025-10-15T20:00:00-07:00",
+          "waitTime": 60,
+          "percentage": 50
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-10-15T08:00:00-07:00",
+          "startTime": "2025-10-15T07:30:00-07:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T17:10:56Z"
+    },
+    {
+      "id": "44c1f655-25d3-440c-b1a8-db736a12b105",
+      "name": "Sorcerer's Workshop",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "353433;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T15:02:32Z"
+    },
+    {
+      "id": "0ee981af-9e3b-4c36-80a2-a7f00fa4841f",
+      "name": "The Storytellers of Plaza de la Familia Celebrate The Musical World of Coco!",
+      "entityType": "SHOW",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "412211848;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T12:00:00-07:00",
+          "startTime": "2025-10-15T12:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T13:00:00-07:00",
+          "startTime": "2025-10-15T13:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T14:30:00-07:00",
+          "startTime": "2025-10-15T14:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T15:30:00-07:00",
+          "startTime": "2025-10-15T15:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T16:30:00-07:00",
+          "startTime": "2025-10-15T16:30:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T07:25:58Z"
+    },
+    {
+      "id": "86ab3069-110d-49c5-a7e7-29ddf28695a6",
+      "name": "Toy Story Midway Mania!",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "353453;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 45
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-10-15T13:30:00-07:00"
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-10-15T08:00:00-07:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-10-15T09:00:00-07:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-10-15T10:00:00-07:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-10-15T11:00:00-07:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-10-15T12:00:00-07:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-10-15T13:00:00-07:00",
+          "waitTime": 50,
+          "percentage": 41
+        },
+        {
+          "time": "2025-10-15T14:00:00-07:00",
+          "waitTime": 50,
+          "percentage": 41
+        },
+        {
+          "time": "2025-10-15T15:00:00-07:00",
+          "waitTime": 50,
+          "percentage": 41
+        },
+        {
+          "time": "2025-10-15T16:00:00-07:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-10-15T17:00:00-07:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-10-15T18:00:00-07:00",
+          "waitTime": 50,
+          "percentage": 41
+        },
+        {
+          "time": "2025-10-15T19:00:00-07:00",
+          "waitTime": 50,
+          "percentage": 41
+        },
+        {
+          "time": "2025-10-15T20:00:00-07:00",
+          "waitTime": 40,
+          "percentage": 33
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T17:10:56Z"
+    },
+    {
+      "id": "2295351d-ce6b-4c04-92d5-5b416372c5b5",
+      "name": "WEB SLINGERS: A Spider-Man Adventure",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "19531124;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 45
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-10-15T13:05:00-07:00"
+        },
+        "SINGLE_RIDER": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-10-15T08:00:00-07:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-10-15T09:00:00-07:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-10-15T10:00:00-07:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-10-15T11:00:00-07:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-10-15T12:00:00-07:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-10-15T13:00:00-07:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-10-15T14:00:00-07:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-10-15T15:00:00-07:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-10-15T16:00:00-07:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-10-15T17:00:00-07:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-10-15T18:00:00-07:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-10-15T19:00:00-07:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-10-15T20:00:00-07:00",
+          "waitTime": 25,
+          "percentage": 20
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-10-15T08:00:00-07:00",
+          "startTime": "2025-10-15T07:30:00-07:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T17:10:56Z"
+    },
+    {
+      "id": "4f5b28d0-b78e-482b-8e2e-1f90756d6220",
+      "name": "Silly Symphony Swings",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "15510732;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        },
+        "SINGLE_RIDER": {
+          "waitTime": null
+        }
+      },
+      "status": "DOWN",
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T16:47:27Z"
+    },
+    {
+      "id": "528016ef-db24-47fa-a0f2-b6d26d61e29f",
+      "name": "Pixar Pal-A-Round - Swinging",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "353379;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 25
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-10-15T08:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T09:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T10:00:00-07:00",
+          "waitTime": 25,
+          "percentage": 20
+        },
+        {
+          "time": "2025-10-15T11:00:00-07:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-10-15T12:00:00-07:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-10-15T13:00:00-07:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-10-15T14:00:00-07:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-10-15T15:00:00-07:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-10-15T16:00:00-07:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-10-15T17:00:00-07:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-10-15T18:00:00-07:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-10-15T19:00:00-07:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-10-15T20:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T19:30:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T17:02:32Z"
+    },
+    {
+      "id": "c9803366-6f37-4406-82af-7692357e3ca9",
+      "name": "Redwood Creek Challenge Trail",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "353413;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 5
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-10-15T08:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T09:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T10:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 9
+        },
+        {
+          "time": "2025-10-15T11:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 9
+        },
+        {
+          "time": "2025-10-15T12:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 9
+        },
+        {
+          "time": "2025-10-15T13:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 9
+        },
+        {
+          "time": "2025-10-15T14:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 9
+        },
+        {
+          "time": "2025-10-15T15:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 9
+        },
+        {
+          "time": "2025-10-15T16:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 9
+        },
+        {
+          "time": "2025-10-15T17:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T18:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T19:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T20:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T16:45:00-07:00",
+          "startTime": "2025-10-15T10:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T17:05:25Z"
+    },
+    {
+      "id": "46097afe-a1ea-4807-93d3-14d14f36e55f",
+      "name": "Mater's Graveyard JamBOOree",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "16514431;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 35
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-10-15T08:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T09:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T10:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T11:00:00-07:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-10-15T12:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T13:00:00-07:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-10-15T14:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T15:00:00-07:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-10-15T16:00:00-07:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-10-15T17:00:00-07:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-10-15T18:00:00-07:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-10-15T19:00:00-07:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-10-15T20:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-10-15T08:00:00-07:00",
+          "startTime": "2025-10-15T07:30:00-07:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T17:02:32Z"
+    },
+    {
+      "id": "0c6c7664-94f0-48b0-91ce-7cc2108a72c9",
+      "name": "Guardians of the Galaxy: Awesome Dance Off!",
+      "entityType": "SHOW",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "18691239;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T15:45:00-07:00",
+          "startTime": "2025-10-15T15:45:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T16:45:00-07:00",
+          "startTime": "2025-10-15T16:45:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T17:45:00-07:00",
+          "startTime": "2025-10-15T17:45:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T19:00:00-07:00",
+          "startTime": "2025-10-15T19:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T20:00:00-07:00",
+          "startTime": "2025-10-15T20:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T20:50:00-07:00",
+          "startTime": "2025-10-15T20:50:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T07:25:57Z"
+    },
+    {
+      "id": "7a09a2f0-e226-4f3e-86f8-2598ab67ec44",
+      "name": "Luigi's Honkin' Haul-O-Ween",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "18343088;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "DOWN",
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T15:30:56Z"
+    },
+    {
+      "id": "5d07a2b1-49ca-4de7-9d32-6d08edf69b08",
+      "name": "Incredicoaster",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "353303;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 20
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-10-15T11:05:00-07:00"
+        },
+        "SINGLE_RIDER": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-10-15T08:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T09:00:00-07:00",
+          "waitTime": 25,
+          "percentage": 20
+        },
+        {
+          "time": "2025-10-15T10:00:00-07:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-10-15T11:00:00-07:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-10-15T12:00:00-07:00",
+          "waitTime": 35,
+          "percentage": 29
+        },
+        {
+          "time": "2025-10-15T13:00:00-07:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-10-15T14:00:00-07:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-10-15T15:00:00-07:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-10-15T16:00:00-07:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-10-15T17:00:00-07:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-10-15T18:00:00-07:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-10-15T19:00:00-07:00",
+          "waitTime": 45,
+          "percentage": 37
+        },
+        {
+          "time": "2025-10-15T20:00:00-07:00",
+          "waitTime": 50,
+          "percentage": 41
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-10-15T08:00:00-07:00",
+          "startTime": "2025-10-15T07:30:00-07:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T17:10:56Z"
+    },
+    {
+      "id": "e1fbc7a1-2cd1-4282-b373-ac11d9d9d38a",
+      "name": "The Little Mermaid - Ariel's Undersea Adventure",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "15575069;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 15
+        },
+        "RETURN_TIME": {
+          "state": "AVAILABLE",
+          "returnEnd": null,
+          "returnStart": "2025-10-15T10:10:00-07:00"
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-10-15T08:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T09:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        },
+        {
+          "time": "2025-10-15T10:00:00-07:00",
+          "waitTime": 10,
+          "percentage": 8
+        },
+        {
+          "time": "2025-10-15T11:00:00-07:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-10-15T12:00:00-07:00",
+          "waitTime": 25,
+          "percentage": 20
+        },
+        {
+          "time": "2025-10-15T13:00:00-07:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-10-15T14:00:00-07:00",
+          "waitTime": 25,
+          "percentage": 20
+        },
+        {
+          "time": "2025-10-15T15:00:00-07:00",
+          "waitTime": 20,
+          "percentage": 16
+        },
+        {
+          "time": "2025-10-15T16:00:00-07:00",
+          "waitTime": 30,
+          "percentage": 25
+        },
+        {
+          "time": "2025-10-15T17:00:00-07:00",
+          "waitTime": 25,
+          "percentage": 20
+        },
+        {
+          "time": "2025-10-15T18:00:00-07:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-10-15T19:00:00-07:00",
+          "waitTime": 15,
+          "percentage": 12
+        },
+        {
+          "time": "2025-10-15T20:00:00-07:00",
+          "waitTime": 5,
+          "percentage": 4
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-10-15T08:00:00-07:00",
+          "startTime": "2025-10-15T07:30:00-07:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T17:10:55Z"
+    },
+    {
+      "id": "af195dcb-a69e-499a-b659-6751ee871f79",
+      "name": "Operation: Playtime! - featuring the Green Army Patrol",
+      "entityType": "SHOW",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "17478465;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T11:30:00-07:00",
+          "startTime": "2025-10-15T11:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T12:30:00-07:00",
+          "startTime": "2025-10-15T12:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T13:30:00-07:00",
+          "startTime": "2025-10-15T13:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T15:00:00-07:00",
+          "startTime": "2025-10-15T15:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T16:00:00-07:00",
+          "startTime": "2025-10-15T16:00:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T17:00:00-07:00",
+          "startTime": "2025-10-15T17:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T07:25:57Z"
+    },
+    {
+      "id": "1bef32e2-73b4-4de3-bb07-f71c3f301f22",
+      "name": "Carthay Circle Lounge",
+      "entityType": "RESTAURANT",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "16588263;entityType=restaurant",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "OPERATING",
+      "lastUpdated": "2025-10-14T22:40:29Z"
+    },
+    {
+      "id": "1d24dd7a-372b-4195-8ad0-ba9679d72b08",
+      "name": "Games of Pixar Pier",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "353339;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 5
+        }
+      },
+      "status": "OPERATING",
+      "operatingHours": [
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T21:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T15:35:25Z"
+    },
+    {
+      "id": "b7ea1c83-0973-44c1-8045-f32042be94d5",
+      "name": "Mickey's Trick and Treat at the Disney Theater",
+      "entityType": "SHOW",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "19354444;entityType=Entertainment",
+      "status": "OPERATING",
+      "showtimes": [
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T10:45:00-07:00",
+          "startTime": "2025-10-15T10:45:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T11:45:00-07:00",
+          "startTime": "2025-10-15T11:45:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T12:45:00-07:00",
+          "startTime": "2025-10-15T12:45:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T14:30:00-07:00",
+          "startTime": "2025-10-15T14:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T15:30:00-07:00",
+          "startTime": "2025-10-15T15:30:00-07:00"
+        },
+        {
+          "type": "Performance Time",
+          "endTime": "2025-10-15T16:30:00-07:00",
+          "startTime": "2025-10-15T16:30:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T07:25:57Z"
+    },
+    {
+      "id": "8f586a2f-cef5-46d3-b822-fd622c4e9e33",
+      "name": "Mickey's PhilharMagic",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "19299875;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": null
+        }
+      },
+      "status": "REFURBISHMENT",
+      "operatingHours": [],
+      "lastUpdated": "2025-10-06T07:18:19Z"
+    },
+    {
+      "id": "b7678dab-5544-48d5-8fdc-c1a0127cfbcd",
+      "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
+      "entityType": "ATTRACTION",
+      "parkId": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "externalId": "353451;entityType=Attraction",
+      "queue": {
+        "STANDBY": {
+          "waitTime": 45
+        },
+        "RETURN_TIME": {
+          "state": "FINISHED",
+          "returnEnd": null,
+          "returnStart": null
+        }
+      },
+      "status": "OPERATING",
+      "forecast": [
+        {
+          "time": "2025-10-15T08:00:00-07:00",
+          "waitTime": 40,
+          "percentage": 33
+        },
+        {
+          "time": "2025-10-15T09:00:00-07:00",
+          "waitTime": 55,
+          "percentage": 45
+        },
+        {
+          "time": "2025-10-15T10:00:00-07:00",
+          "waitTime": 60,
+          "percentage": 50
+        },
+        {
+          "time": "2025-10-15T11:00:00-07:00",
+          "waitTime": 60,
+          "percentage": 50
+        },
+        {
+          "time": "2025-10-15T12:00:00-07:00",
+          "waitTime": 75,
+          "percentage": 62
+        },
+        {
+          "time": "2025-10-15T13:00:00-07:00",
+          "waitTime": 85,
+          "percentage": 70
+        },
+        {
+          "time": "2025-10-15T14:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T15:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T16:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T17:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T18:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T19:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        },
+        {
+          "time": "2025-10-15T20:00:00-07:00",
+          "waitTime": 0,
+          "percentage": 0
+        }
+      ],
+      "operatingHours": [
+        {
+          "type": "Early Entry",
+          "endTime": "2025-10-15T08:00:00-07:00",
+          "startTime": "2025-10-15T07:30:00-07:00"
+        },
+        {
+          "type": "Operating",
+          "endTime": "2025-10-15T14:00:00-07:00",
+          "startTime": "2025-10-15T08:00:00-07:00"
+        }
+      ],
+      "lastUpdated": "2025-10-15T16:59:27Z"
+    }
+  ]
+}
