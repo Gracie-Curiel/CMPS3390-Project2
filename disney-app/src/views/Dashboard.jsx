@@ -23,3 +23,15 @@ const Dashboard = () => (
 );
 
 export default Dashboard;
+
+
+
+//removes trip based on tripId
+function removeTrip(tripId){
+  tripId = String(tripId);
+  var allTrips = JSON.parse(localStorage["allTrips"]);
+  allTrips = allTrips.filter(item => item.Id !== tripId);
+  localStorage["allTrips"] = JSON.stringify(allTrips);
+}
+
+
