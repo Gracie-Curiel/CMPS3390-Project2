@@ -117,8 +117,8 @@ async function modData() {
 
 
   //grab first 15 elements from both arrays, put them in rides
-  rides = disPark.slice(0, 15);
-  rides = rides.concat(advenPark.slice(0, 15));
+  rides = disPark.slice(0, 10);
+  rides = rides.concat(advenPark.slice(0, 10));
 
   //gets an image file for each of the rides
   //for (let i = 0; i < rides.length; i++) {
@@ -148,6 +148,45 @@ const getImg = async (i) => {
 };
 
 
+//desiredTrip should be the attraction/show id, adds the ride to localstorage on currentTrip
+function addRide(rideId) {
+  let tripId = parseInt(localStorage.getItem('currentTrip'));
+  var allTrips = JSON.parse(localStorage["allTrips"]);
+  console.log(localStorage.getItem("currentTrip"));
+  console.log(allTrips);
+  //trip is equal to the trip that matches the last set currentTrip ID
+  let trip = allTrips.find(item => item.Id == tripId);
+  //adds ride based off rideId
+  //API CALL GIVES id NOT Id !!! YOU WILL FORGET!!!
+  let data = rides.find(item => item.id == rideId);
+  trip.rides.push(data);
+  //throws it back in local
+  localStorage["allTrips"] = JSON.stringify(allTrips);
+}
+
+
+window.onload = function () {
+  setTimeout(() => {
+    removeRide('bcfd1e17-3eab-4203-b597-6257a257d427');
+  }, 1000); // waits 2000 milliseconds = 2 seconds
+};
+
+
+
+//same function as above but pops instead of pushes
+function removeRide(rideId) {
+  let tripId = parseInt(localStorage.getItem('currentTrip'));
+  var allTrips = JSON.parse(localStorage["allTrips"]);
+  console.log(localStorage.getItem("currentTrip"));
+  console.log(allTrips);
+  //trip is equal to the trip that matches the last set currentTrip ID
+  let trip = allTrips.find(item => item.Id == tripId);
+  //uses filter instead of find to remove
+  //API CALL GIVES id NOT Id !!! YOU WILL FORGET!!!
+  trip.rides = trip.rides.filter(item => item.id !== rideId);
+  //throws it back in local
+  localStorage["allTrips"] = JSON.stringify(allTrips);
+}
 
 
 

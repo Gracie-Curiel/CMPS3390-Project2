@@ -74,6 +74,7 @@ function createTrip() {
 
     //add = autoinc from local
     let add = parseInt(localStorage.getItem('autoInc'));
+    localStorage.setItem('currentTrip', add);
 
     //puts trip object in allTrips
     var allTrips = JSON.parse(localStorage["allTrips"]);
