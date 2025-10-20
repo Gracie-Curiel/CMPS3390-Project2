@@ -1,10 +1,19 @@
 /* index.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/tailwind.css";
+@plugin "daisyui";
 
 
 :root { color-scheme: light; }
+
 *, *::before, *::after { box-sizing: border-box; }
+
 html, body, #root { height: 100%; }
-body { margin: 0; font-family: system-ui, -apple-system, sans-serif; }
+
+body { 
+    margin: 0; 
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #f9f9f9;
+    color: #222;
+ }
+
+ #root { display: block; }
