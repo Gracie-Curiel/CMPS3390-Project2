@@ -1,29 +1,46 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
-const TripForm = () => (
-  <div data-theme="light" class="min-h-screen bg-white text-gray-900 p-8">
-    <div class="flex justify-center mt-50">
-      <fieldset class="fieldset bg-white border-gray-300 rounded-box w-full max-w-md border p-6 shadow-md">
-        <legend class="fieldset-legend text-lg font-medium mb-4">Enter Trip Details</legend>
+// On TripForm:
+// 1. Added useNavigate to redirect user after saving trip
+const TripForm = () => {
+  const navigate = useNavigate();
 
-        <label class="label">Title</label>
-        <input id = 'title' type="text" class="input input-bordered w-full" placeholder="Disney Crew" />
+  function handleSave() {
+    createTrip();
+    setTimeout(() => {
+      navigate("/Dashboard");
+    }, 200);
+  }
 
-        <label class="label mt-4">Start Date</label>
-        <input id = 'startD' type="date" class="input input-bordered w-full" />
+  // 2. Added a form component using Tailwindcss/DaisyUi. 
+  //    that takes user input for trip details
+  return (
+    <div data-theme="light" 
+      className="min-h-screen text-gray-900 flex justify-center items-center bg-white">
+      <fieldset className="border p-6 rounded shadow-md w-full max-w-md bg-white">
+        <legend className="text-lg font-medium mb-4">Enter Trip Details</legend>
 
-        <label class="label mt-4">End Date</label>
-        <input id = 'endD'type="date" class="input input-bordered w-full" />
-        <button onClick = {createTrip} class="btn btn-primary btn-lg mt-6 w-full">Save Trip</button>
+        <label className="label">Title</label>
+        <input id="title" type="text" className="input input-bordered w-full bg-white text-black" placeholder="Disney Crew"/>
+
+        <label className="label mt-4">Start Date</label>
+        <input id="startD" type="date" className="input input-bordered w-full bg-white text-black"/>
+
+        <label className="label mt-4">End Date</label>
+        <input id="endD" type="date"className="input input-bordered w-full bg-white text-black"/>
+
+        <button onClick={handleSave} className="btn btn-primary btn-lg mt-6 w-full">Save Trip</button>
+
         <Link to="/Dashboard">
-          <button class="btn btn-secondary btn-lg mt-4 w-full">Cancel</button>
+          <button className="btn btn-secondary btn-lg mt-4 w-full">Cancel</button>
         </Link>
       </fieldset>
     </div>
-  </div>
-);
+  );
+};
 
 export default TripForm;
+
 
 
 //

@@ -1,38 +1,53 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 
+// On Rides:
+// 1. Added useNavigate to go back to Dashboard
+// 2. Used useState to hold available rides
 const Rides = () => {
   const navigate = useNavigate();
+  const [displayRides, setDisplayRides] = useState([]);
 
+  // 3. Used useEffect to load rides from API from themeparks.wiki
+  useEffect(() => {
+    async function loadRides() {
+      await modData();
+      setDisplayRides(rides); 
+    }
+    loadRides();
+  }, []);
+
+  function handleAddRide(rideId) {
+    addRide(rideId);
+    alert("Ride added to trip!");
+  }
+
+  // 5. Added a view to display available attractions and shows
   return (
     <div className="min-h-screen bg-white text-gray-900">
-      {/* Navbar */}
       <nav className="navbar bg-clear flex justify-between items-center px-4 py-2">
-        <button className="btn btn-neutral" onClick={() => navigate(-1)}>
-          Go Back
-        </button>
+        <button className="btn btn-neutral" onClick={() => navigate(-1)}>Go Back</button>
       </nav>
 
-      {/* Ride Card */}
-      <div className="flex justify-center mt-8">
-        <div className="card bg-white w-96 shadow-md text-gray-900">
-          <figure>
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-              alt="Ride"
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title text-gray-900">Ride Title</h2>
-            <p>
-              This is placeholder text for the ride description. It provides
-              details about the ride and what to expect.
-            </p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Add to Trip +</button>
+      <h1 className="text-3xl font-bold text-center mt-6">Available Rides & Shows</h1>
+
+      {displayRides.length > 0 && (
+        <div className="flex flex-wrap justify-center gap-6 mt-8">
+          {displayRides.map((r) => (
+            <div key={r.id} className="card bg-white w-80 shadow-md text-gray-900 border">
+              <div className="card-body">
+                <h2 className="card-title text-gray-900">{r.name}</h2>
+                <p>Type: {r.entityType}</p>
+                <button className="btn btn-primary mt-4" onClick={() => handleAddRide(r.id)}>Add to Trip +</button>
+              </div>
             </div>
-          </div>
+          ))}
         </div>
-      </div>
+      )}
+
+      {displayRides.length === 0 && (
+        <p className="text-center mt-10 text-xl">Loading rides...</p>
+      )}
     </div>
   );
 };
