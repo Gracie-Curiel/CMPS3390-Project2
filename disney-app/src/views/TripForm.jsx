@@ -17,7 +17,7 @@ const TripForm = () => {
   return (
     <div data-theme="light" 
       className="min-h-screen text-gray-900 flex justify-center items-center bg-white">
-      <fieldset className="border p-6 rounded shadow-md w-full max-w-md bg-white">
+      <fieldset className="border p-6 rounded shadow-md w-30 max-w-md bg-white">
         <legend className="text-lg font-medium mb-4">Enter Trip Details</legend>
 
         <label className="label">Title</label>

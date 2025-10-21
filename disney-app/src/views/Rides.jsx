@@ -1,18 +1,50 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
+import RideCard from "./RideCard.jsx";
 
-// On Rides:
-// 1. Added useNavigate to go back to Dashboard
-// 2. Used useState to hold available rides
+/* image name resolver */
+const rideImageFiles = [
+  "AncientSanctum.jpg",
+  "AnimationAcademy.jpg",
+  "AvengersHeadquarters.jpg",  
+  "TheBakeryTour.jpg",
+  "CitizensOfBuenaVistaStreet.jpg",
+  "TheDisneyGallery.jpg",
+  "Donald'sDuckPond.jpg",
+  "FlagRetreatCeremony.jpg",
+  "GrizzlyRiverRun.jpg",
+  "HalloweenScreams.jpg",
+  "InsideOutEmotionalWhirlwind.jpg",
+  "JambalayaJazz.jpg",
+  "MainStreetCinema.jpg",
+  "MainStreetPiano.jpg",
+  "MainStreetVehicles.jpg",
+  "MeetTheResidentsOfRadiatorSprings.jpg",
+  "TapestryOfHappiness.jpg",
+  "TheAmazingSpider-Man.jpg",
+  "TianasBayouAdventure.jpg",  
+  "TurtleTalkWithCrush.jpg",
+];
+
+const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]/g, "");
+const fileIndex = Object.fromEntries(
+  rideImageFiles.map((f) => [norm(f.replace(/\.[^.]+$/, "")), f])
+);
+function getRideImageUrl(ride) {
+  const key = norm(ride?.name || "");
+  if (fileIndex[key]) return `/rides/${fileIndex[key]}`;
+  const hit = Object.keys(fileIndex).find((k) => k.startsWith(key) || key.startsWith(k));
+  return hit ? `/rides/${fileIndex[hit]}` : "/rides/_placeholder.jpg";
+}
+
 const Rides = () => {
   const navigate = useNavigate();
   const [displayRides, setDisplayRides] = useState([]);
 
-  // 3. Used useEffect to load rides from API from themeparks.wiki
   useEffect(() => {
     async function loadRides() {
       await modData();
-      setDisplayRides(rides); 
+      setDisplayRides(rides);
     }
     loadRides();
   }, []);
@@ -22,25 +54,36 @@ const Rides = () => {
     alert("Ride added to trip!");
   }
 
-  // 5. Added a view to display available attractions and shows
   return (
-    <div className="min-h-screen bg-white text-gray-900">
-      <nav className="navbar bg-clear flex justify-between items-center px-4 py-2">
-        <button className="btn btn-neutral" onClick={() => navigate(-1)}>Go Back</button>
+    <div
+      className="min-h-screen text-gray-900
+                 bg-gradient-to-br from-[#fdf3ff] via-[#e6f6ff] to-[#fff8e5]
+                 bg-cover bg-center"
+    >
+      <nav className="navbar bg-transparent flex justify-between items-center px-4 py-2">
+        <button
+          className="btn btn-neutral rounded-full px-6 shadow-md
+                     hover:shadow-lg hover:brightness-110 transition-all duration-300"
+          onClick={() => navigate(-1)}
+        >
+          Go Back
+        </button>
       </nav>
 
-      <h1 className="text-3xl font-bold text-center mt-6">Available Rides & Shows</h1>
+      <h1 className="text-3xl font-bold text-center mt-6">
+        Available Attractions & Shows
+      </h1>
 
       {displayRides.length > 0 && (
-        <div className="flex flex-wrap justify-center gap-6 mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-8 px-4">
           {displayRides.map((r) => (
-            <div key={r.id} className="card bg-white w-80 shadow-md text-gray-900 border">
-              <div className="card-body">
-                <h2 className="card-title text-gray-900">{r.name}</h2>
-                <p>Type: {r.entityType}</p>
-                <button className="btn btn-primary mt-4" onClick={() => handleAddRide(r.id)}>Add to Trip +</button>
-              </div>
-            </div>
+            <RideCard
+              key={r.id}
+              name={r.name}
+              entityType={r.entityType}
+              imageUrl={getRideImageUrl(r)}
+              onAdd={() => handleAddRide(r.id)}
+            />
           ))}
         </div>
       )}
@@ -195,11 +238,3 @@ function removeRide(rideId) {
   //throws it back in local
   localStorage["allTrips"] = JSON.stringify(allTrips);
 }
-
-
-
-
-
-
-
-
