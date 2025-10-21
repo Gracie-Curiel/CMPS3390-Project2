@@ -1,11 +1,25 @@
-import { Link } from 'react-router-dom';
-const LandingPage = () => 
-<body>
-    <div class="bg-white p-6" style={{ height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-        <p class="text-5xl mb-8">Welcome to the Disney Trip Planner!</p>
-        <Link to="/Dashboard">    
-            <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">Start Planning</button>
-        </Link>  
+// src/views/LandingPage.jsx
+import { Link } from "react-router-dom";
+
+export default function LandingPage() {
+  return (
+    <div
+      className="min-h-screen flex flex-col justify-center items-center text-gray-900
+                 bg-gradient-to-b from-[#c3e4fd] via-[#fde2f3] to-[#fffaf3]
+                 bg-cover bg-center"
+    >
+      <h1 className="text-5xl md:text-6xl font-bold mb-8 text-primary drop-shadow-md text-center">
+        Welcome to the Disney Trip Planner!
+      </h1>
+
+      <Link to="/Dashboard">
+        <button
+          className="btn btn-primary text-lg px-8 py-3 rounded-full shadow-md
+                     hover:shadow-lg hover:brightness-110 transition-all duration-300"
+        >
+          ✨ Start Planning ✨
+        </button>
+      </Link>
     </div>
-</body>
-export default LandingPage;
+  );
+}
